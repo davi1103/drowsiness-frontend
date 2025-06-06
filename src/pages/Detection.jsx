@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import CameraFeed from "../components/CameraFeed";
 import { useSomnolencia } from "../hooks/useSomnolencia";
 import { useNavigate } from "react-router-dom";
-import Alerta from "../components/alerta";
+import Alerta from "../components/Alerta";
 import ProbabilidadChart from "../components/ProbabilidadChart";
 
 export default function Detection() {
